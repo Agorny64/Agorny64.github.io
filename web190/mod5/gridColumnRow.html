@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Alex Gorny
+    (Web 190)
+    (Mod 5 Lab Part 2)
+    2/8/2026-->
+    <title>Web 190 - Module Lab Part 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.1em;
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            background-color: darkred;
+            padding: 10px;
+            justify-content: space-evenly;
+        }
+
+        .grid-container2 {
+            display: grid;
+            height: 300px;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            background-color: darkred;
+            padding: 10px;
+            align-content: start;
+        }
+
+        .grid-container1>div, .grid-container2>div {
+            background-color: lightcoral;
+            text-align: center;
+            padding: 10px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Web 190 - Module Lab Part 2</h1>
+    </header>
+    <h2>Grid Area #1: This container demonstrates the justify-content - space-evenly property</h2>
+    <div class="grid-container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div><!-- end of grid container -->
+
+    <p>This area uses justify-content - space-evenly property to move all the div content in the grid container to be spaced equally left to right while still maintaining the natural order of the content.</p>
+    <hr>
+
+    <h2>Grid Area #2: This container demonstrates the align-content - start property</h2>
+    <div class="grid-container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div><!-- end of grid container -->
+    <p>This area uses align-content - start property to move all of the grid container div content to the top of the grid container, while maintaining the natural order of the content. I added a specific height to the grid container so that it would show more prominently.</p>
+</body>
+
+</html>
