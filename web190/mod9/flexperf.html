@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--Alex Gorny
+    (Web 190)
+    (Mod 9-2 Lab)
+    3/21/2026-->	
+<title>CSS Flexbox Performance Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This webpage will show what I have learned on flexbox.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    *{
+        box-sizing: border-box;
+        font-family: Inter, 'Noto Serif', 'sans-serif';
+    }
+    #wrapper{
+        width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+        border: thin solid black;
+        background-color: #f35621;
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: start;
+        background-color:salmon;
+    }
+    nav a{
+        background-color: lightsalmon;
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        
+    }
+    nav a:hover{
+        background-color: white;
+    }
+    main{
+        display: flex;
+        background-color: salmon;
+        padding: 10px;
+    }
+    .left{
+        flex: 62.5%;
+        background-color: lightsalmon;
+        padding: 10px;
+        margin: 5px;
+    }
+    .right{
+        flex: 37.5%;
+        background-color: lightsalmon;
+        padding: 10px;
+        margin: 5px;
+    }
+    img{
+        width: 40%;
+        height: auto;
+        margin-left: 10px;
+        float: right;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    footer{
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+    }
+    @media screen and (max-width: 525px){
+        h1{
+            font-size: 1.9em;
+        }
+        p{
+            font-size: 1.1em;
+        }
+        main, nav{
+            flex-direction: column;
+        }
+        img{
+            width: 50%;
+            height: auto;
+        }
+        #wrapper{
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+<div id="wrapper">
+<header>
+    <h1>CSS Flexbox Performance Assignment</h1>
+</header>
+<nav>
+        <a href="flexperf.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+</nav>
+<main>
+<div class="left">
+    <img alt="Rainbow ice cream cone with a sunny background" src="Icecreamcone.svg">
+    <h2>Left Area</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati praesentium doloribus inventore debitis consequuntur deserunt repellat soluta aspernatur quia odit quibusdam, qui, accusamus iure. Dolor minus repudiandae corrupti vel.</p>
+</div>
+<div class="right">
+    <h2>Right Area</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minus repudiandae corrupti vel.</p>
+</div>
+</main>
+<footer>
+    <p>&copy;Copyright 2026</p>
+</footer>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
