@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Alex Gorny
+    (Web 190)
+    (Mod 12 Lab)
+    4/11/2026-->
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <title>Web 190 - Module 12: Intro to W3.CSS</title>
+</head>
+
+<body>
+    <div class="w3-container w3-teal w3-border">
+        <h1>Header</h1>
+
+    </div>
+    <div class="w3-bar w3-border">
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+    </div>
+    <!--row 1-->
+    <div class="w3-row w3-border">
+        <div class="w3-third w3-container w3-green w3-border">
+            <h2>Left Third</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <div class="w3-third w3-container w3-border">
+            <h2>w3-third</h2>
+        </div>
+        <div class="w3-third w3-container w3-red w3-border">
+            <h2>w3-third</h2>
+        </div>
+    </div>
+    <!--row 2-->
+    <div class="w3-row w3-border">
+        <div class="w3-half w3-container w3-green w3-border">
+            <h2>w3-half</h2>
+        </div>
+        <div class="w3-half w3-container w3-border">
+            <h2>Right Half</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <!--Accordian CSS Page Feature-->
+    <!--Choose this option since it blended well into the current design I had built and was a new feature yet to be mentioned in the class.-->
+    <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-red">
+Centered text Accordian (Click to open)</button>
+
+<div id="Demo3" class="w3-hide w3-container w3-center w3-pale-red">
+  <p>Centered content as well!</p>
+</div>
+
+
+
+    <!--footer row-->
+    <div class="w3-container w3-center w3-small w3-aqua">
+        <h5>Web 190 - Module 12: Intro to W3.CSS</h5>
+        <p>Copyright &copy; 2026</p>
+    </div>
+    <script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
+
+</html>
