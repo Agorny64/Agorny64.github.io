@@ -4,6 +4,8 @@
 
 body {
     font-family: Inter, Noto Serif, sans-serif;
+    color: #111827;
+    background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5 {
