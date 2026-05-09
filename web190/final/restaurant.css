@@ -4,15 +4,13 @@
 
 body {
     font-family: Inter, Noto Serif, sans-serif;
-    color: #1a1a1a;
 }
-
 
 h1, h2, h3, h4, h5 {
     font-family: 'Noto Serif', sans-serif;
     font-weight: 900;
-    color: #1a1a1a;
 }
+
 
 strong {
     font-weight: 900;
@@ -125,13 +123,13 @@ ul {
 .w3-card.w3-white h3,
 .w3-card.w3-white h3 strong,
 .w3-card.w3-white .menu-price {
-    color: #1f2937;
+    color: #000;
 }
 
 .menu-price {
     font-size: 1.5em;
     font-weight: 900;
-    color: #1f2937;
+    color: #000;
     margin: 10px 0;
 }
 
