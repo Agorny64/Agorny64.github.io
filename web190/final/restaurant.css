@@ -63,8 +63,8 @@ a:hover {
 }
 
 .active {
-    background-color: #ff9800 !important;
-    color: #000 !important;
+    background-color: #ff9800;
+    color: #000;
 }
 
 .w3-bar a.active {
