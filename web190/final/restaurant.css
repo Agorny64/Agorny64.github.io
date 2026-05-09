@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 body {
@@ -49,6 +50,7 @@ a:hover {
 .w3-button:hover {
     background-color: #ff9800 !important;
     color: #000 !important;
+    font-weight: 900;
 }
 
 
@@ -63,13 +65,12 @@ a:hover {
 .active {
     background-color: #ff9800;
     color: #000;
-    font-weight: bold;
 }
 
 .w3-bar a.active {
     background-color: #ff9800;
     color: #000;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 
