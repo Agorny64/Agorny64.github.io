@@ -6,6 +6,10 @@ body {
     font-family: Inter, Noto Serif, sans-serif;
 }
 
+p{
+    color: #1f2937;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Noto Serif', sans-serif;
     font-weight: 900;
