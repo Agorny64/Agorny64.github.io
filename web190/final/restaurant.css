@@ -119,10 +119,16 @@ ul {
     max-width: 800px;
 }
 
+.w3-card.w3-white h3,
+.w3-card.w3-white h3 strong,
+.w3-card.w3-white .menu-price {
+    color: #1f2937;
+}
+
 .menu-price {
     font-size: 1.5em;
     font-weight: 900;
-    color: #ff9800;
+    color: #1f2937;
     margin: 10px 0;
 }
 
