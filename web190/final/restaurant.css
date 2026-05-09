@@ -40,22 +40,17 @@ a:hover {
     transform: scale(1.2);
 }
 
-a:focus-visible,
-.w3-button:focus-visible {
-    outline: 3px dashed #ff9800;
-    outline-offset: 4px;
-}
 
 .active {
     background-color: #ff9800;
-    color: #000;
+    text-color: #000;
     font-weight: bold;
 }
 
 
   .w3-button:hover {
     background-color: #ff9800 !important;
-    color: #000 !important;
+    text-color: #000 !important;
 }
 
 
