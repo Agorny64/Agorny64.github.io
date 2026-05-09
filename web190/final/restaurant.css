@@ -38,8 +38,12 @@ a {
 
 a:hover {
     transform: scale(1.2);
-    color: #ff9800;
-    font-weight: bold;
+}
+
+a:focus-visible,
+.w3-button:focus-visible {
+    outline: 3px dashed #ff9800;
+    outline-offset: 4px;
 }
 
 .active {
@@ -59,9 +63,10 @@ a:hover {
     text-align: center;
 }
 
-w3-block {
-    color: #ff9800;
+.w3-bar a {
+    color: #ffffff;
 }
+
 
 .w3-row-padding {
     display: flex;
@@ -124,8 +129,9 @@ ul {
 
 .w3-card.w3-white h3,
 .w3-card.w3-white h3 strong,
-.w3-card.w3-white .menu-price {
-    color: #000;
+.w3-card.w3-white .menu-price,
+.w3-card.w3-white p {
+    color: #111827;
 }
 
 .menu-price {
